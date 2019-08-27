@@ -3,6 +3,7 @@
 **Members** : <a href="https://github.com/PyeongKim">PyeongEun Kim</a>
 
 **Supervisors** : <a href="https://github.com/utkuozbulak">Utku Ozbulak</a>, Wesley De Neve
+
 {: .alert .alert-info .text-justify}
 
 ## Description
