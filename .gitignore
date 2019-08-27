@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *.csv
+*.py.swp
 *$py.class
 
 # C extensions
