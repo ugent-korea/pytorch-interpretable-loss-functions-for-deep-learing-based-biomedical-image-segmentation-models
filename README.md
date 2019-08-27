@@ -44,12 +44,10 @@ surfaces of different loss functions throughout the training of deep segmentatio
 <p align="justify">
 We obtained the dataset from the paper
 <a href="https://www.researchgate.net/publication/272191210_Estimation_of_the_Relative_Amount_of_Hemoglobin_in_the_Cup_and_Neuroretinal_Rim_Using_Stereoscopic_Color_Fundus_Images">“Estimation of the Relative Amount of Hemoglobin in the Cup and Neuroretinal Rim Using Stereoscopic Color
-Fundus Images”</a>
+Fundus Images”.</a> The dataset contains 159 images (.png) of size 569x428.</p>
 
 <p align="center">
-<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png"></p>
-
-The dataset contains 159 images (.png) of size 569x428.</p>
+<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png"></p> 
 
 
 ## Model <a name="model"></a>
