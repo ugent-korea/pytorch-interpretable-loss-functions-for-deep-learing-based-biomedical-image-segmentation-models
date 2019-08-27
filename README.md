@@ -49,62 +49,8 @@ Fundus Images”</a>
 <p align="center">
 <img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png"></p>
 
-The dataset contains 30 images (.png) of size 512x512 for each train, train-labels and test.</p>
+The dataset contains 159 images (.png) of size 569x428.</p>
 
-```ruby
-class EyeDataset(Dataset):
-
-    def __init__(self, image_path, mask_path, in_size=572, out_size=388):
-        """
-        Args:
-            image_path (str): the path where the image is located
-            mask_path (str): the path where the mask is located
-            option (str): decide which dataset to import
-        """
-        # All file names
-	# Lists of image path and list of labels
-        # Calculate len
-        # Calculate mean and stdev
-
-    def __getitem__(self, index):
-        """Get specific data corresponding to the index
-        Args:
-            index (int): index of the data
-
-        Returns:
-            Tensor: specific data on index which is converted to Tensor
-        """
-        """
-        # GET IMAGE
-        """
-        #Augmentation on image
-          # Flip 
-          # Crop the image
-          # Pad the image
-          # Sanity Check for Cropped image
-          # Normalize the image
-
-          # Add additional dimension
-          # Convert numpy array to tensor
-        
-        #Augmentation on mask
-          # Flip same way with image
-          # Crop the same part that was cropped on image
-          # Sanity Check
-          # Normalize the mask to 0 and 1
-      
-        # Add additional dimension
-        # Convert numpy array to tensor
-
-        return (img_as_tensor, msk_as_tensor)
-
-    def __len__(self):
-        """
-        Returns:
-            length (int): length of the data
-        """
-
-```
 
 ## Model <a name="model"></a>
 
