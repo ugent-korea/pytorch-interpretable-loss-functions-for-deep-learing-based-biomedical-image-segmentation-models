@@ -44,7 +44,13 @@ surfaces of different loss functions throughout the training of deep segmentatio
 <p align="justify">
 We obtained the dataset from the paper
 <a href="https://www.researchgate.net/publication/272191210_Estimation_of_the_Relative_Amount_of_Hemoglobin_in_the_Cup_and_Neuroretinal_Rim_Using_Stereoscopic_Color_Fundus_Images">“Estimation of the Relative Amount of Hemoglobin in the Cup and Neuroretinal Rim Using Stereoscopic Color
-Fundus Images”.</a> The dataset contains 159 images (.png) of size 569x428.</p>
+Fundus Images”.</a> The example of the eye data and its corresponding ground truth mask is shown in
+the figure below. The eye image is RGB, with the dimension of 428x569 (width x height). In the dataset, there are
+159 eye images and corresponding ground truth masks for optic disks and other parts. White pixels in the
+ground truth mask represent the optic disks area in the eye image and black pixels in the ground truth mask
+represent the non-optic disk area of the eye image. The dataset is divided into 150 images in the training set
+and 9 images in the test set for training and testing, respectively. Note that our data has a class imbalance
+problem that pixels of optic disks are only 10% of the total image.</p>
 
 <p align="center">
 <img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png" height="300"></p> 
