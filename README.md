@@ -27,7 +27,7 @@ surfaces of different loss functions throughout the training of deep segmentatio
 
 * [Model](#model)
 
-* [Loss function](#lossfunction)
+* [Loss functions](#lossfunctions)
 
 * [Experimental setups](#experimental_setup)
 
@@ -65,6 +65,8 @@ model for image segmentation. The architecture of U-net model is illustrated in 
 
 <p align="center">
 <img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/U-net_model.png" height="400"></p> 
+
+## Loss functions <a name="lossfunctions"></a>
 
 ## Experimental setups <a name="experimental_setup"></a>
 
