@@ -21,7 +21,7 @@ We obtained the dataset from the paper
 Fundus Images”</a>
 
 <p align="center">
-<img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/segmentation_image.jpg">
+<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png">
 
 The dataset contains 30 images (.png) of size 512x512 for each train, train-labels and test.
 
