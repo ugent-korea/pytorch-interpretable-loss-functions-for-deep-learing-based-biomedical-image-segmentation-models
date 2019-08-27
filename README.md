@@ -57,7 +57,7 @@ Fundus Images”.</a> The dataset contains 159 images (.png) of size 569x428.</p
 The model that we used is U-net (<a href="https://arxiv.org/pdf/1505.04597.pdf">original paper</a>), one of the first groundbreaking encoder-decoder style deep learning-based
 model for image segmentation. The architecture of U-net model is illustrated in the figure below.
 
-![image](https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/U-net_model.png)
+![image](https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/U-net_model.png|width=100)
 
 
 ## Experimental setups <a name="experimental_setup"></a>
