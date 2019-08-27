@@ -110,7 +110,8 @@ class EyeDataset(Dataset):
 
 #### Architecture
 
-We have same structure as U-Net Model architecture but we made a small modification to make the model smaller.
+The model that we used is U-net, one of the first groundbreaking encoder-decoder style deep learning-based
+model for image segmentation. The architecture of U-net model is illustrated in the figure below.
 
 ![image](https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/U-net_model.png)
 
