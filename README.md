@@ -4,8 +4,10 @@
 
 **Supervisors** : <a href="https://github.com/utkuozbulak">Utku Ozbulak</a>, Wesley De Neve
 
-## Description
+{: .alert .alert-info .text-justify}
 
+## Description
+<p align="justify">
 After the initial break-through performances of encoder-decoder style deep learning models, multiple loss
 functions were proposed to improve the functionality and the effectiveness of these models in the
 segmentation of biomedical images, such as cross-entropy loss, the focal loss, and the Dice loss. However,
@@ -14,6 +16,7 @@ no clear answer on which loss function is most suitable in training the models f
 segmentation. Thus, to enhance the understanding of the loss functions, we aim to investigate the nature of
 different loss functions. Also, we will propose a visual tool to illustrate the loss
 surfaces of different loss functions throughout the training of deep segmentation model.
+</p>
 
 
 We obtained the dataset from the paper
@@ -21,7 +24,7 @@ We obtained the dataset from the paper
 Fundus Images”</a>
 
 <p align="center">
-<img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/segmentation_image.jpg">
+<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png">
 
 The dataset contains 30 images (.png) of size 512x512 for each train, train-labels and test.
 
