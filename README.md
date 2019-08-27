@@ -112,7 +112,7 @@ class EyeDataset(Dataset):
 
 We have same structure as U-Net Model architecture but we made a small modification to make the model smaller.
 
-![image](https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/U-net_model.png)
+![image](https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/U-net_model.png)
 
 
 ## Experimental setups <a name="experimental_setup"></a>
