@@ -47,7 +47,7 @@ We obtained the dataset from the paper
 Fundus Images”.</a> The dataset contains 159 images (.png) of size 569x428.</p>
 
 <p align="center">
-<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png"></p> 
+<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/data_segmentation.png" height="300"></p> 
 
 
 ## Model <a name="model"></a>
