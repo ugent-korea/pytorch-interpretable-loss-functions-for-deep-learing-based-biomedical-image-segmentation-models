@@ -58,7 +58,7 @@ The model that we used is U-net (<a href="https://arxiv.org/pdf/1505.04597.pdf">
 model for image segmentation. The architecture of U-net model is illustrated in the figure below.
 
 <p align="center">
-<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/U-net_model.png" height="200"></p> 
+<img src="https://github.com/ugent-korea/Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/U-net_model.png" height="400"></p> 
 
 ## Experimental setups <a name="experimental_setup"></a>
 
