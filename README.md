@@ -6,7 +6,7 @@
 {: .alert .alert-info .text-justify}
 
 ## Description
-
+<p align="justify">
 After the initial break-through performances of encoder-decoder style deep learning models, multiple loss
 functions were proposed to improve the functionality and the effectiveness of these models in the
 segmentation of biomedical images, such as cross-entropy loss, the focal loss, and the Dice loss. However,
@@ -15,6 +15,7 @@ no clear answer on which loss function is most suitable in training the models f
 segmentation. Thus, to enhance the understanding of the loss functions, we aim to investigate the nature of
 different loss functions. Also, we will propose a visual tool to illustrate the loss
 surfaces of different loss functions throughout the training of deep segmentation model.
+</p>
 
 
 We obtained the dataset from the paper
