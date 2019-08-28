@@ -2,7 +2,7 @@
 
 **Members** : <a href="https://github.com/PyeongKim">PyeongEun Kim</a>
 
-**Supervisors** : <a href="https://github.com/utkuozbulak">Utku Ozbulak</a>, Prof.Arnout Van Messem, Prof.Wesley De Neve
+**Supervisors** : <a href="https://github.com/utkuozbulak">Utku Ozbulak</a>, Prof. Arnout Van Messem, Prof. Wesley De Neve
 
 
 ## Description
