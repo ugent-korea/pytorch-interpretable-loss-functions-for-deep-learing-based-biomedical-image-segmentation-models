@@ -1,8 +1,13 @@
-# Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model
+# Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-models
 
 **Members** : <a href="https://github.com/PyeongKim">PyeongEun Kim</a>
 
 **Supervisors** : <a href="https://github.com/utkuozbulak">Utku Ozbulak</a>, Prof. Arnout Van Messem, Prof. Wesley De Neve
+
+## Technical Report
+<p align="justify">
+The technical report can be downloaded from the dropbox. Click <a href="https://www.dropbox.com/s/1rxhgilcia8wi2y/technical%20report%20for%20Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-models.pdf?dl=0">here</a> to download the technical report for this project.
+</p>
 
 
 ## Description
