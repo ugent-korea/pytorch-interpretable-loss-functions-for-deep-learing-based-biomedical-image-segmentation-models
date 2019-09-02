@@ -79,7 +79,7 @@ In this project, we used the two most popular loss functions: **the cross-entrop
 
 ### Cross-entropy loss function
 <p align="left">
-<img src="https://latex.codecogs.com/svg.latex?CEL&space;=&space;-log(p_t)" title="CEL = -log(p_t)" />
+<img src="https://latex.codecogs.com/svg.latex?\small&space;CEL&space;=&space;-log(p_t)" title="\small CEL = -log(p_t)" />
 </p>
 <p align="left">
 <img src="https://latex.codecogs.com/svg.latex?\small&space;p_t=\frac{e^{g(\Theta&space;,X)_t}}{\sum_{j\in&space;I}&space;g(\Theta&space;,X)_j}" title="\small p_t=\frac{e^{g(\Theta ,X)_t}}{\sum_{j\in I} g(\Theta ,X)_j}" />
