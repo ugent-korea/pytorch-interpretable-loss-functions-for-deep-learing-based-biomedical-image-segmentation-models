@@ -78,14 +78,17 @@ model for image segmentation. The architecture of U-net model is illustrated in 
 In this project, we used the two most popular loss functions: **the cross-entropy loss** and **the focal loss** functions.
 
 ### Cross-entropy loss function
-<p align="center">
+<p align="left">
 <img src="https://latex.codecogs.com/svg.latex?CEL&space;=&space;-log(p_t)" title="CEL = -log(p_t)" />
 </p>
-<p align="center">
+<p align="left">
 <img src="https://latex.codecogs.com/svg.latex?\small&space;p_t=\frac{e^{g(\Theta&space;,X)_t}}{\sum_{j\in&space;I}&space;g(\Theta&space;,X)_j}" title="\small p_t=\frac{e^{g(\Theta ,X)_t}}{\sum_{j\in I} g(\Theta ,X)_j}" />
 </p>
 
 ### Focal loss function
+<p align="left">
+<img src="https://latex.codecogs.com/svg.latex?\small&space;FL&space;=&space;-(1-p_t)^{\gamma}\cdot&space;log(p_t)" title="\small FL = -(1-p_t)^{\gamma}\cdot log(p_t)" />
+</p>
 
 ## Experimental setups <a name="experimental_setup"></a>
 
