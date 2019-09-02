@@ -171,7 +171,38 @@ For consistency, we chose to focus on accuracy as our criterion of correctness o
 			<td width="99%" align="center"> <img src="https://github.com/ugent-korea/pytorch-interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/graph_accuracy.png"> </td> 
 		</tr>
 	</tbody>
-</table>       
+</table>     
+
+<table border=0 width="99%" >
+	<tbody> 
+    <tr>		<td width="99%" align="center" colspan="3"><strong>Intersection-over-union (IOU)</td>
+	    </tr>
+		<tr>
+			<td width="99%" align="center"> <img src="https://github.com/ugent-korea/pytorch-interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/graph_IOU.png"> </td> 
+		</tr>
+	</tbody>
+</table> 
+
+<table border=0 width="99%" >
+	<tbody> 
+    <tr>		<td width="99%" align="center" colspan="3"><strong>Prediction confidence of black pixels</td>
+	    </tr>
+		<tr>
+			<td width="99%" align="center"> <img src="https://github.com/ugent-korea/pytorch-interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/graph_conf_black.png"> </td> 
+		</tr>
+	</tbody>
+</table> 
+
+<table border=0 width="99%" >
+	<tbody> 
+    <tr>		<td width="99%" align="center" colspan="3"><strong>Prediction confidence of black pixels</td>
+	    </tr>
+		<tr>
+			<td width="99%" align="center"> <img src="https://github.com/ugent-korea/pytorch-interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/graph_conf_white.png"> </td> 
+		</tr>
+	</tbody>
+</table> 
+
 We used two different optimizers (SGD, RMS PROP, and Adam). In case of SGD the momentum is manually set (0.99) whereas in case of other optimizers (RMS Prop and Adam) it is calculated automatically. 
 
 <table border=0 width="99%" >
