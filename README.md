@@ -78,9 +78,9 @@ model for image segmentation. The architecture of U-net model is illustrated in 
 In this project, we used the two most popular loss functions: **the cross-entropy loss** and **the focal loss** functions.
 
 ### Cross-entropy loss function
-\begin{equation}
-CEL = -log(p_t)
-\end{equation}
+
+$CEL = -log(p_t)$
+
 ### Focal loss function
 
 ## Experimental setups <a name="experimental_setup"></a>
