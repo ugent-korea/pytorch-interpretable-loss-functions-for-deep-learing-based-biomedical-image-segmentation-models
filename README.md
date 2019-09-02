@@ -38,6 +38,8 @@ surfaces of different loss functions throughout the training of deep segmentatio
 
 * [Results](#results)
 
+* [Visualization of loss surfaces](#visualization)
+
 * [Dependency](#dependency)
 
 * [References](#references)
@@ -73,95 +75,17 @@ model for image segmentation. The architecture of U-net model is illustrated in 
 
 ## Loss functions <a name="lossfunctions"></a>
 
+In this project, we used the two most popular loss functions: the cross-entropy loss and the focal loss functions.
+
+### Cross-entropy loss function
+
+### Focal loss function
+
 ## Experimental setups <a name="experimental_setup"></a>
 
 
 
 ## Results <a name="results"></a>
-
-<table style="width:99%">
-	<tr> 
-		<th>Optimizer</th>
-	    	<th>Learning Rate</th>
-	    	<th>Lowest Loss</th>
-	    	<th>Epoch</th>
-		<th>Highest Accuracy</th>
-	    	<th>Epoch</th>
-	</tr>
-	<tr>
-		<th rowspan="3">SGD</th>
-		<td align="center">0.001</td>
-		<td align="center">0.196972</td>
-		<td align="center">1445</td>
-		<td align="center">0.921032</td>
-		<td align="center">1855</td>
-	</tr>
-	<tr>
-		<td align="center">0.005</td>
-		<td align="center">0.205802</td>
-		<td align="center">1815</td>
-		<td align="center">0.918425</td>
-		<td align="center">1795</td>
-	</tr>
-	<tr>
-		<td align="center">0.01</td>
-		<td align="center">0.193328</td>
-		<td align="center">450</td>
-		<td align="center">0.922908</td>
-		<td align="center">450</td>
-	</tr>
-	<tr>
-		<th rowspan="3">RMS_prop</th>
-		<td align="center">0.0001</td>
-		<td align="center">0.203431</td>
-		<td align="center">185</td>
-		<td align="center">0.924543</td>
-		<td align="center">230</td>
-	</tr>
-	<tr>
-		<td align="center">0.0002</td>
-		<td align="center">0.193456</td>
-		<td align="center">270</td>
-		<td align="center">0.926245</td>
-		<td align="center">500</td>
-	</tr>
-	<tr>
-		<td align="center">0.001</td>
-		<td align="center">0.268246</td>
-		<td align="center">1655</td>
-		<td align="center">0.882229</td>
-		<td align="center">1915</td>
-	</tr>
-	<tr>
-		<th rowspan="3">Adam</th>
-		<td align="center">0.0001</td>
-		<td align="center">0.194180</td>
-		<td align="center">140</td>
-		<td align="center">0.924470</td>
-		<td align="center">300</td>
-	</tr>
-	<tr>
-		<td align="center">0.0005</td>
-		<td align="center">0.185212</td>
-		<td align="center">135</td>
-		<td align="center">0.925519</td>
-		<td align="center">135</td>
-	</tr>
-	<tr>
-		<td align="center">0.001</td>
-		<td align="center">0.222277</td>
-		<td align="center">165</td>
-		<td align="center">0.912364</td>
-		<td align="center">180</td>
-	</tr>
-		
-</table>       
-
-
-We chose the best learning rate that fits the optimizer based on **how fast the model converges to the lowest error**. In other word, the learning rate should make model to reach optimal solution in shortest epoch repeated. However, the intersting fact was that the epochs of lowest loss and highest accuracy were not corresponding. This might be due to the nature of loss function (Loss function is log scale, thus an extreme deviation might occur). For example, if the softmax probability of one pixel is 0.001, then the -log(0.001) would be 1000 which is a huge value that contributes to loss.
-For consistency, we chose to focus on accuracy as our criterion of correctness of model. 
-
-
 
 <table border=0 width="99%" >
 	<tbody> 
@@ -203,65 +127,9 @@ For consistency, we chose to focus on accuracy as our criterion of correctness o
 	</tbody>
 </table> 
 
-We used two different optimizers (SGD, RMS PROP, and Adam). In case of SGD the momentum is manually set (0.99) whereas in case of other optimizers (RMS Prop and Adam) it is calculated automatically. 
-
-<table border=0 width="99%" >
-	<tbody> 
-    <tr>		<td width="99%" align="center" colspan="3"><strong>Accuracy of prediction</td>
-	    </tr>
-		<tr>
-			<td width="33%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/SGD_graph.png"> </td> 
-			<td width="33%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/RMS_graph.png"> </td>
-			<td width="33%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/Adam_graph.png"> </td>
-		</tr>
-		<tr>
-			<td align="center">SGD<br />(lr=0.01,momentum=0.99)</td>
-			<td align="center">RMS prop<br />(lr=0.0002)</td>
-			<td align="center">Adam<br />(lr=0.0005)</td>
-      		</tr>
-	</tbody>
-</table>       
-
-### Model Downloads
-
-Model trained with SGD can be downloaded via **dropbox**:
-https://www.dropbox.com/s/ge9654nhgv1namr/model_epoch_2290.pwf?dl=0
+## Visualization of loss surfaces <a name="visualization"></a>
 
 
-Model trained with RMS prop can be downloaded via **dropbox**:
-https://www.dropbox.com/s/cdwltzhbs3tiiwb/model_epoch_440.pwf?dl=0
-
-
-Model trained with Adam can be downloaded via **dropbox**:
-https://www.dropbox.com/s/tpch6u41jrdgswk/model_epoch_100.pwf?dl=0
-
-
-
-
-### Example
-
-<p align="center">
-  <img width="250" height="250" src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/validation_img.png"> <br /> Input Image</td>
-</p>
-
-<table border=0 width="99%" >
-	<tbody> 
-    <tr>		<td width="99%" align="center" colspan="5"><strong>Results comparsion</td>
-	    </tr>
-		<tr>
-			<td width="24%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/validation_mask.png"> </td>
-			<td width="24%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/validation_RMS.png"> </td>
-			<td width="24%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/validation_SGD.png"></td> 
-			<td width="24%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/validation_Adam.png"> </td>
-		</tr>
-		<tr>
-			<td align="center">original image mask</td>
-			<td align="center">RMS prop optimizer <br />(Accuracy 92.48 %)</td>
-			<td align="center">SGD optimizer <br />(Accuracy 91.52 %)</td>
-			<td align="center">Adam optimizer <br />(Accuracy 92.55 %)</td>
-      		</tr>
-	</tbody>
-</table>       
 
 ## Dependency <a name="dependency"></a>
 
