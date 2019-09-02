@@ -79,8 +79,7 @@ In this project, we used the two most popular loss functions: **the cross-entrop
 
 ### Cross-entropy loss function
 
-$CEL = -log(p_t)$
-
+<img src="https://latex.codecogs.com/svg.latex?CEL&space;=&space;-log(p_t)" title="CEL = -log(p_t)" />
 ### Focal loss function
 
 ## Experimental setups <a name="experimental_setup"></a>
