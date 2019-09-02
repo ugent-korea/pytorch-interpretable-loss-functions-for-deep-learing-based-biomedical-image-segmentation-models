@@ -34,8 +34,6 @@ surfaces of different loss functions throughout the training of deep segmentatio
 
 * [Loss functions](#lossfunctions)
 
-* [Experimental setups](#experimental_setup)
-
 * [Results](#results)
 
 * [Visualization of loss surfaces](#visualization)
@@ -89,10 +87,6 @@ In this project, we used the two most popular loss functions: **the cross-entrop
 <p align="left">
 <img src="https://latex.codecogs.com/svg.latex?\small&space;FL&space;=&space;-(1-p_t)^{\gamma}\cdot&space;log(p_t)" title="\small FL = -(1-p_t)^{\gamma}\cdot log(p_t)" />
 </p>
-
-## Experimental setups <a name="experimental_setup"></a>
-
-
 
 ## Results <a name="results"></a>
 
