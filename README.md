@@ -168,7 +168,7 @@ For consistency, we chose to focus on accuracy as our criterion of correctness o
     <tr>		<td width="99%" align="center" colspan="3"><strong>Accuracy of prediction</td>
 	    </tr>
 		<tr>
-			<td width="99%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/graph_accuracy.png"> </td> 
+			<td width="99%" align="center"> <img src="https://github.com/ugent-korea/pytorch-interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-model/blob/master/readme_images/graph_accuracy.png"> </td> 
 		</tr>
 	</tbody>
 </table>       
