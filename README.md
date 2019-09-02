@@ -165,7 +165,18 @@ For consistency, we chose to focus on accuracy as our criterion of correctness o
 
 <table border=0 width="99%" >
 	<tbody> 
-    <tr>		<td width="99%" align="center" colspan="3"><strong>Accuracy and Loss Graph</td>
+    <tr>		<td width="99%" align="center" colspan="3"><strong>Accuracy of prediction</td>
+	    </tr>
+		<tr>
+			<td width="99%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/graph_accuracy.png"> </td> 
+		</tr>
+	</tbody>
+</table>       
+We used two different optimizers (SGD, RMS PROP, and Adam). In case of SGD the momentum is manually set (0.99) whereas in case of other optimizers (RMS Prop and Adam) it is calculated automatically. 
+
+<table border=0 width="99%" >
+	<tbody> 
+    <tr>		<td width="99%" align="center" colspan="3"><strong>Accuracy of prediction</td>
 	    </tr>
 		<tr>
 			<td width="33%" align="center"> <img src="https://github.com/ugent-korea/pytorch-unet-segmentation/blob/master/readme_images/SGD_graph.png"> </td> 
@@ -179,7 +190,6 @@ For consistency, we chose to focus on accuracy as our criterion of correctness o
       		</tr>
 	</tbody>
 </table>       
-We used two different optimizers (SGD, RMS PROP, and Adam). In case of SGD the momentum is manually set (0.99) whereas in case of other optimizers (RMS Prop and Adam) it is calculated automatically. 
 
 ### Model Downloads
 
