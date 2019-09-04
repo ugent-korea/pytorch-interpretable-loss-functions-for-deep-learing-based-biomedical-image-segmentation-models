@@ -90,6 +90,12 @@ In this project, we used the two most popular loss functions: **the cross-entrop
 
 ## Results <a name="results"></a>
 
+We evaluated the difference between the loss functions by observing the performance of the model. The
+performance of the model is determined by three criteria: pixel-wise accuracy, intersection-over-union (IoU),
+and prediction confidence. We focused on comparing the difference in these criteria between the cross-
+entropy loss with different class weights and the focal losses with different $\gamma$. We now provide results for each 3
+ of the criterion obtained throughout the training.
+
 <table border=0 width="99%" >
 	<tbody> 
     <tr>		<td width="99%" align="center" colspan="3"><strong>Accuracy of prediction</td>
