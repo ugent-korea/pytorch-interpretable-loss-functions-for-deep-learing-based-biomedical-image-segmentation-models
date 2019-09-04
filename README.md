@@ -148,7 +148,6 @@ Following modules are used in the project:
     * numpy >= 1.14.5
     * torch >= 0.4.0
     * PIL >= 5.2.0
-    * scipy >= 1.1.0
     * matplotlib >= 2.2.2
    
 
