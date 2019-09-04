@@ -6,7 +6,7 @@
 
 ## Technical Report
 <p align="justify">
-Detailed information regarding this repository can be found in the technical report. The technical report can be downloaded from the dropbox. Click <a href="https://www.dropbox.com/s/1rxhgilcia8wi2y/technical%20report%20for%20Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-models.pdf?dl=0">here</a> to download the file.
+Detailed information regarding this repository can be found in the technical report. The technical report can be downloaded from the dropbox. Click <a href="https://www.dropbox.com/s/5nse5usltytyuqw/technical%20report%20for%20Interpretable-loss-functions-for-deep-learing-based-biomedical-image-segmentation-models.pdf?dl=0">here</a> to download the file.
 </p>
 
 
