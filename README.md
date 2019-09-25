@@ -139,6 +139,8 @@ entropy loss with different class weights and the focal losses with different &g
 ## Visualization of loss surfaces <a name="visualization"></a>
 
 
+Refer to the visualization of loss surface section on the technical report (you can download the technical report from above link). 
+
 
 ## Dependency <a name="dependency"></a>
 
